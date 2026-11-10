@@ -1,0 +1,14 @@
+{
+  "name": "Uta (\u6b4c) Studio Workflow",
+  "description": "Hanzo Creative AI Music Generation Model (`uta` / `/v1/audio/music`)",
+  "steps": [
+    {
+      "id": "uta-step-1",
+      "kind": "music.generate",
+      "model": "uta",
+      "input": {
+        "prompt": "Minimalist analog synth underscore in D Dorian, 112 BPM, warm tape saturation"
+      }
+    }
+  ]
+}
